@@ -181,6 +181,18 @@ export const companies = [
     img: "/tailwind.svg",
     // nameImg: "/dockerName.svg",
   },
+  {
+    id: 8,
+    name: "Openai",
+    img: "/openai.svg",
+    // nameImg: "/dockerName.svg",
+  },
+  {
+    id: 9,
+    name: "ReactJS",
+    img: "/reactjs.svg",
+    // nameImg: "/dockerName.svg",
+  },
 ];
 
 export const workExperience = [
