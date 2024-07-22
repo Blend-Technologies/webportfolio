@@ -683,7 +683,7 @@ And if you're hungry for more than just a course and want to understand how we l
 
 # If you have issues with large files to push to github
 
-$ git rm --cached giant_file
+$ git rm --cached -r node_modules
 
 # Stage our giant file for removal, but leave it on disk
 

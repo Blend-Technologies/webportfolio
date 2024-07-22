@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-      "I am a seasonned Data Scientist building websites and AI solutions for companies of any size. ",
+      "We build professional websites and AI solutions for companies of any size. ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Highly flexible with time zone communications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +29,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "Our tech stack",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -141,47 +141,59 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Azure Dev Ops",
+    img: "/azuredevops.svg",
+    // nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Next JS",
+    img: "/next.svg",
+    // nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Figma",
+    img: "/figma.svg",
+    // nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Azure Cognitive Search",
+    img: "/azurecogsearch.svg",
+    // nameImg: "/streamName.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Azure Machine Learning.",
+    img: "/azureml.svg",
+    // nameImg: "/dockerName.svg",
+  },
+  {
+    id: 6,
+    name: "Fast API",
+    img: "/fastapi.svg",
+    // nameImg: "/dockerName.svg",
+  },
+  {
+    id: 7,
+    name: "Tailwind",
+    img: "/tailwind.svg",
+    // nameImg: "/dockerName.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Data Scientist",
+    title: "Data Science",
     desc: "Developping Large Language Models(LLMs) applications with Next.js, React JS, and Python.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/azureaistudio.svg",
   },
   {
     id: 2,
-    title: "Logo Designer",
+    title: "Web Development and Logo Design",
     desc: "Designing stunning logos that converts into sales.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -198,7 +210,7 @@ export const workExperience = [
     title: "Consulting in Data Analysis, LLM/ AI Ops and Automation",
     desc: "Consulting companies of any size on process, tools, security and automation using Azure cloud.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/azuredevops.svg",
   },
 ];
 
