@@ -698,3 +698,7 @@ git commit --amend -CHEAD
 git push
 
 # Push our rewritten, smaller commit
+
+# Oscar
+
+png to svg converter: https://new.express.adobe.com/tools/convert-to-svg?referrer=https%3A%2F%2Fadobeid-na1.services.adobe.com%2F&url=%2Fexpress%2Ffeature%2Fimage%2Fconvert%2Fpng-to-svg&placement=columns-1&locale=en-US&contentRegion=us&%24web_only=true&_branch_match_id=1131093520290314867&_branch_referrer=H4sIAAAAAAAAAyWOQUsDMRCFf01zS5YqHhSCiCB7VgTxItn0NZtukgkz2W1P%2FnbTCgPvY2be482tVXkaBnegCVIdL5Wk6TMm42o1KZZlwPB9%2BVpOj%2BP4ME7PjCOYwXa%2BWnf3L7u7tz63gHjQxe2NgLfoIea2NJ5yf1ArJ9sVl8oQ6XSEayujU8wuXNVT2cCtUy1BN9KyBVWT88gozXpKay6i9yqRdwkWRX9%2BqO5q%2FfyOEKnYVdTvf8dYws%2FEdO517OvMlPEH1%2FaT9e4AAAA%3D

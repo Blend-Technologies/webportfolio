@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-      "We build professional websites and AI solutions for companies of any size. ",
+      "We provide consulting solutions in the area of Machine Learning, Analytics and AI for companies of any size. ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Highly flexible with time zone communications",
+    title: "Automation is the core of our services",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -30,7 +30,7 @@ export const gridItems = [
   {
     id: 3,
     title: "Our tech stack",
-    description: "I constantly try to improve",
+    description: "We use cutting-edge technologies",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "A dedicated team for your guaranteed success",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -50,8 +50,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently building a Multi-Agents application",
+    description: "Next.JS Agentic application",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -73,33 +73,33 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Chat with your files",
+    des: "Upload a series of pdfs, csv, urls files and ask questions to the GEN AI applications.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "/ui.chatai.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Customer Service Chatbot",
+    des: "Save time by integrating a copilot to your website. Provide 24/7 customer service while you focus on what matters.",
+    img: "/customer_servic_bot.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "/ui.chatbot.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Advanced Analytics Dashboard",
+    des: "A custom analytics dashboard with staged or realtime data",
+    img: "/project-finance.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "/ui.analytics.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Data Pipelines and Machine Learning Engineering",
+    des: "End to end Machine Learning pipeline from data cleaning to prediction.",
+    img: "/dsml.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
@@ -198,22 +198,22 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Data Science",
-    desc: "Developping Large Language Models(LLMs) applications with Next.js, React JS, and Python.",
+    title: "AI Software Engineering",
+    desc: "Develop Large Language Models(LLMs) applications with Next.js, React JS, and Python. Evaluation of the LLMs and Prompt Engineering.",
     className: "md:col-span-2",
     thumbnail: "/azureaistudio.svg",
   },
   {
     id: 2,
-    title: "Web Development and Logo Design",
-    desc: "Designing stunning logos that converts into sales.",
+    title: "Data Pipelines and Machine Learning Engineering.",
+    desc: "Data cleaning, feature engineering and storing, variable selection, prediction, evaluation and monitoring.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Copywriting",
-    desc: "Provides strong copywriting that significantly impacts brand perception, customer engagement, and company growth.",
+    title: "Data Science and Analytics",
+    desc: "Using classical Machine learning and NLP to generate insights and provide recommendations.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
