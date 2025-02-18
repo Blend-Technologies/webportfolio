@@ -24,7 +24,7 @@ const Home = () => {
         <Experience />
         <Approach />
         <ProjectForm />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </main>
   );
