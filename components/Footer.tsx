@@ -2,6 +2,22 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import React, { useState } from "react";
+import {
+  Sun,
+  Moon,
+  Car,
+  Shield,
+  Clock,
+  Award,
+  ChevronRight,
+  Star,
+  Check,
+  MapPin,
+  Phone,
+  Mail,
+  Calendar,
+} from "lucide-react";
 
 const Footer = () => {
   return (
@@ -16,15 +32,6 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready for a discovery call to incorporate{" "}
-          <span className="text-purple">AI and Automation</span> in your
-          business?
-        </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to us today and let&apos;s discuss how we can help you
-          achieve your goals.
-        </p>
         <a href="mailto:oscaradimi@blendaitechnologies.com">
           <MagicButton
             title="Let's get in touch"
@@ -33,6 +40,7 @@ const Footer = () => {
           />
         </a>
       </div>
+
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Blend Technologies
