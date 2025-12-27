@@ -51,8 +51,14 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["NextJS", "FastAPI", "Typescript"];
+  const leftLists: string[] = [];
   const rightLists = ["Langchain", "CrewAI", "Pinecone"];
+  const governmentClients = [
+    "Department of Defense (DoD)",
+    "Defense Information Systems Agency (DISA)",
+    "U.S. Cyber Command",
+    "DARPA and more"
+  ];
 
   const [copied, setCopied] = useState(false);
 
@@ -131,13 +137,26 @@ export const BentoGridItem = ({
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
           <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+            className={`font-sans text-lg lg:text-3xl ${id === 2 || id === 5 ? 'whitespace-nowrap' : 'max-w-96'} font-bold z-10`}
           >
             {title}
           </div>
 
           {/* for the github 3d globe */}
           {id === 2 && <GridGlobe />}
+
+          {/* Government Clients list */}
+          {id === 5 && (
+            <div className="mt-8">
+              <ul className="list-disc list-inside space-y-3 text-base lg:text-lg text-white-200">
+                {governmentClients.map((client, i) => (
+                  <li key={i} className="font-sans">
+                    {client}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* Tech stack list div */}
           {id === 3 && (

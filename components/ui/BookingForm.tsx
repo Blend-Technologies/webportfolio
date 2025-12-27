@@ -3,11 +3,10 @@ import { motion } from "framer-motion";
 import { supabase } from "@/lib/supabase";
 
 const budgetRanges = [
-  "Under $5,000",
-  "$5,000 - $10,000",
-  "$10,000 - $25,000",
-  "$25,000 - $50,000",
-  "Over $50,000",
+  "Under $100,000",
+  "$100,000 - $500,000",
+  "$500,000 - $1,000,000",
+  "Over $1,000,000",
 ];
 
 export function ProjectForm() {

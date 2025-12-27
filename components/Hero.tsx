@@ -52,8 +52,8 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Featuring LLM Applications through Generative AI using Next.JS"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            words="Building Secured AI-Powered Software and Analytics Solutions for Government and Enterprises."
+            className="text-center text-[40px] md:text-4xl lg:text-5xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
